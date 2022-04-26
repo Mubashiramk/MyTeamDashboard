@@ -7,7 +7,7 @@ export const Card = (props) => {
         <h3 className="card__title">{props.title}</h3>
         <span className="card__option"></span>
       </div>
-      <props.cardContent cardData={props.cardData} />
+      <props.cardContent data={props.cardData} />
       <div className="card__component">{/* <Component /> */}</div>
     </div>
   );

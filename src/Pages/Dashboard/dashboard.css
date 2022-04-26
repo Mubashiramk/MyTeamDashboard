@@ -10,13 +10,23 @@
 }
 .dashboard__progress {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   column-span: 3;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 25px;
+  max-width: 550px;
 }
 
 .dashboard__taskactivities {
-  width: 50%;
+  min-width: 50%;
+  /* display: flex; */
+
+  display: block;
+  flex: 1;
+}
+.dashboard__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

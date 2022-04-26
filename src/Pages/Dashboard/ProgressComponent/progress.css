@@ -1,0 +1,23 @@
+.progressCard {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.progressCard__bar {
+  width: 65px;
+}
+p {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.progressCard__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 8px;
+  text-align: right;
+  line-height: 15.73px;
+}

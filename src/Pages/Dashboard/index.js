@@ -53,12 +53,36 @@ export const Dashboard = () => {
           />
         </div>
         <div className="dashboard__taskactivities">
-          <Card title="Task Activities" cardContent={progressComponent} />
+          <Card
+            title="Task Activities"
+            cardData={{
+              percentage: 75,
+              quantity: 15,
+              description: "Tasks Today",
+            }}
+            cardContent={progressComponent}
+          />
         </div>
       </div>
       <div className="dashboard__bottom">
-        <Card title="Team Activities" cardContent={progressComponent} />
-        <Card title="Team Member Performance" cardContent={progressComponent} />
+        <Card
+          title="Team Activities"
+          cardData={{
+            percentage: 75,
+            quantity: 15,
+            description: "Tasks Today",
+          }}
+          cardContent={progressComponent}
+        />
+        <Card
+          title="Team Member Performance"
+          cardData={{
+            percentage: 75,
+            quantity: 15,
+            description: "Tasks Today",
+          }}
+          cardContent={progressComponent}
+        />
       </div>
     </div>
   );
