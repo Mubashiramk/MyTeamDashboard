@@ -2,6 +2,7 @@ import { Card } from "../../components/Card";
 import { TaskActivities } from "./TaskActivities";
 import { TeamActivities } from "./TeamActivities";
 import { progressComponent } from "./ProgressComponent";
+import { TeamMemberPerformance } from "./TeamMemberPerformance";
 import "./dashboard.css";
 
 export const Dashboard = () => {
@@ -64,22 +65,24 @@ export const Dashboard = () => {
         </div>
       </div>
       <div className="dashboard__bottom">
-        <Card
-          title="Team Activities"
-          cardData={{
-            percentage: 66,
-          }}
-          cardContent={TeamActivities}
-        />
-        <Card
-          title="Team Member Performance"
-          cardData={{
-            percentage: 75,
-            quantity: 15,
-            description: "Tasks Today",
-          }}
-          cardContent={progressComponent}
-        />
+        <div className="dashboard__teamactivities">
+          <Card
+            title="Team Activities"
+            cardData={{
+              percentage: 66,
+            }}
+            cardContent={TeamActivities}
+          />
+        </div>
+        <div className="dashboard__teammemberperformance">
+          <Card
+            title="Team Member Performance"
+            cardData={{
+              percentage: 66,
+            }}
+            cardContent={TeamMemberPerformance}
+          />
+        </div>
       </div>
     </div>
   );

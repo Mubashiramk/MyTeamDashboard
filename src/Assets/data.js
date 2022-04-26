@@ -1,0 +1,51 @@
+export const data = [
+  {
+    name: "Devid Esoni",
+    designation: "Senior Product Manager",
+    email: "devidesoni@mail.com",
+    rating: 9.8,
+    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+  },
+  {
+    name: "hairet Esoni",
+    designation: "programmer Analyst",
+    email: "hairet@mail.com",
+    rating: 3.8,
+    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "gefter nuikj",
+    designation: "Product Manager",
+    email: "efternuikj@mail.com",
+    rating: 4.8,
+    img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "gijuok sam",
+    designation: "HR",
+    email: "gijuoksam@mail.com",
+    rating: 5.8,
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "juikfrose",
+    designation: "Senior Product Manager",
+    email: "juikfrose@mail.com",
+    rating: 6.8,
+    img: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "enit ben",
+    designation: "Trainee",
+    email: "enitben@mail.com",
+    rating: 7.8,
+    img: "https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "hans gihti",
+    designation: " Product Manager",
+    email: "hansgihti@mail.com",
+    rating: 8.8,
+    img: "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+  },
+];

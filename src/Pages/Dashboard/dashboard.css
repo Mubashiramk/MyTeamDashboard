@@ -30,3 +30,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.dashboard__teamactivities {
+  width: 65%;
+  margin-right: 25px;
+}
+.dashboard__teammemberperformance {
+  display: block;
+  flex: 1;
+  /* overflow-y: scroll; */
+}

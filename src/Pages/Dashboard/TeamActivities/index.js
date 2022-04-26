@@ -5,7 +5,6 @@ export const TeamActivities = () => {
     <div>
       <Line
         height={261}
-        width={500}
         data={{
           labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
           datasets: [
