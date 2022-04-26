@@ -1,5 +1,6 @@
 import { Card } from "../../components/Card";
 import { TaskActivities } from "./TaskActivities";
+import { TeamActivities } from "./TeamActivities";
 import { progressComponent } from "./ProgressComponent";
 import "./dashboard.css";
 
@@ -66,11 +67,9 @@ export const Dashboard = () => {
         <Card
           title="Team Activities"
           cardData={{
-            percentage: 75,
-            quantity: 15,
-            description: "Tasks Today",
+            percentage: 66,
           }}
-          cardContent={progressComponent}
+          cardContent={TeamActivities}
         />
         <Card
           title="Team Member Performance"

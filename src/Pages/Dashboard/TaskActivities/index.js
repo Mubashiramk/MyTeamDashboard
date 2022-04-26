@@ -27,8 +27,7 @@ export const TaskActivities = () => {
           width={400}
           options={{
             maintainAspectRatio: false,
-            barPercentage: 0.5,
-            categoryPercentage: 0.5,
+
             scales: {
               yAxes: [
                 {
