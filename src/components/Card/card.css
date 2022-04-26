@@ -1,0 +1,30 @@
+.card {
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  box-shadow: 5px 10px 18px #d7d4e0;
+}
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card__option {
+  position: relative;
+  width: 10px;
+  height: 30px;
+}
+.card__option:after {
+  content: "•••";
+  position: absolute;
+  top: 30%;
+  right: -50%;
+  transform: rotate(90deg);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.card__title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1f2127;
+}

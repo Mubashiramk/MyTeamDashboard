@@ -1,0 +1,22 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.dashboard__top {
+  display: flex;
+  flex-direction: row;
+}
+.dashboard__progress {
+  display: flex;
+  width: 50%;
+  column-span: 3;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+
+.dashboard__taskactivities {
+  width: 50%;
+}

@@ -1,0 +1,15 @@
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0;
+  margin: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+}
+.right_main {
+  flex: 1;
+  padding-left: 35px;
+  padding-right: 35px;
+  overflow: scroll;
+}

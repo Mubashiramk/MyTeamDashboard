@@ -1,0 +1,10 @@
+.user_div {
+  font-size: x-small;
+}
+button {
+  background-color: #3954ff;
+}
+.logout_button {
+  font-size: small;
+  border-radius: 10px;
+}
