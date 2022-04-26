@@ -14,7 +14,62 @@ import { Settings } from "../../Pages/Settings";
 
 import { Sidebar } from "../Sidebar";
 
+import {
+  Chart,
+  ArcElement,
+  LineElement,
+  BarElement,
+  PointElement,
+  BarController,
+  BubbleController,
+  DoughnutController,
+  LineController,
+  PieController,
+  PolarAreaController,
+  RadarController,
+  ScatterController,
+  CategoryScale,
+  LinearScale,
+  LogarithmicScale,
+  RadialLinearScale,
+  TimeScale,
+  TimeSeriesScale,
+  Decimation,
+  Filler,
+  Legend,
+  Title,
+  Tooltip,
+  SubTitle,
+} from "chart.js";
+
 export const Home = () => {
+  Chart.register(
+    ArcElement,
+    LineElement,
+    BarElement,
+    PointElement,
+    BarController,
+    BubbleController,
+    DoughnutController,
+    LineController,
+    PieController,
+    PolarAreaController,
+    RadarController,
+    ScatterController,
+    CategoryScale,
+    LinearScale,
+    LogarithmicScale,
+    RadialLinearScale,
+    TimeScale,
+    TimeSeriesScale,
+    Decimation,
+    Filler,
+    Legend,
+    Title,
+    Tooltip,
+    SubTitle
+  );
+
   const [error, setError] = useState("");
   const { currentUser, logout } = useAuth();
   const navigate = useNavigate();

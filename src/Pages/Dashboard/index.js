@@ -1,5 +1,5 @@
 import { Card } from "../../components/Card";
-// import progressData from "../../Assets/progressData";
+import { TaskActivities } from "./TaskActivities";
 import { progressComponent } from "./ProgressComponent";
 import "./dashboard.css";
 
@@ -56,11 +56,9 @@ export const Dashboard = () => {
           <Card
             title="Task Activities"
             cardData={{
-              percentage: 75,
-              quantity: 15,
-              description: "Tasks Today",
+              percentage: 66,
             }}
-            cardContent={progressComponent}
+            cardContent={TaskActivities}
           />
         </div>
       </div>
