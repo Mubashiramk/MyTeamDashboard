@@ -1,0 +1,51 @@
+.cardfirm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 5px 5px 18px #e4e3e7;
+}
+.cardfirm__header {
+  position: relative;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+}
+.cardfirm__header:after {
+  content: "•••";
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transform: rotate(90deg);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.cardfirm__details {
+  padding: 25px;
+}
+.cardfirm__image img {
+  width: 90px;
+  height: 90px;
+  border: none;
+  border-radius: 25px;
+  border: solid 3px rgba(31, 33, 39, 0.07);
+}
+.cardfirm__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.cardfirm__email {
+  font-weight: 300;
+  font-size: 11px;
+}
+.cardfirm__designation {
+  background-color: rgba(57, 84, 255, 0.03);
+  color: #3954ff;
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
