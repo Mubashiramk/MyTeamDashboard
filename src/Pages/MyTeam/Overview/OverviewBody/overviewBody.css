@@ -1,0 +1,13 @@
+.overviewbody__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.overviewbody__header h4 {
+  font-size: 14px;
+  color: rgba(57, 84, 255, 0.8);
+}
+.overviewbody {
+  padding: 25px;
+}

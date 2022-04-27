@@ -1,0 +1,14 @@
+.ceo {
+  margin-top: 20px;
+  background-color: rgba(57, 84, 255, 0.05);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.ceo .ceo__details p {
+  font-size: 10px;
+}
+.ceo__details {
+  padding: 10px;
+}

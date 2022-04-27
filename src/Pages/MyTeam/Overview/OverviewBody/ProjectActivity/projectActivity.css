@@ -1,0 +1,12 @@
+.projectactivity__bardiv {
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+}
+.projectactivity {
+  text-align: center;
+}
+.projectactivity__bar {
+  width: 100px;
+}
