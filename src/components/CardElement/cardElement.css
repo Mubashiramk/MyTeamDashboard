@@ -1,0 +1,68 @@
+.cardelement {
+  margin-bottom: 25px;
+  background-color: white;
+  padding: 18px;
+  box-shadow: 5px 5px 18px #e4e3e7;
+  border-radius: 7px;
+}
+
+.cardelement img {
+  border: none;
+  width: 98%;
+  height: 107px;
+  margin-bottom: 15px;
+}
+.cardelement h3 {
+  color: rgba(31, 33, 39, 1);
+  font-size: 16px;
+}
+.cardelement p {
+  font-size: 13px;
+  color: rgba(31, 33, 39, 0.5);
+  padding: 10px;
+}
+.cardelement__label {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(31, 33, 39, 0.04);
+  align-items: center;
+  /* padding: 3px; */
+  height: 20px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px 0px 3px 8px;
+}
+.items p {
+  color: rgba(31, 33, 39, 0.7);
+}
+.left {
+  align-items: center;
+  /* background-color: aqua; */
+  height: 30px;
+  width: 60px;
+}
+.left p {
+  color: rgba(255, 109, 57, 1);
+  font-size: 11px;
+  padding-top: 3px;
+  font-weight: 400;
+}
+.subline {
+  background-color: rgba(57, 84, 255, 1);
+  height: 3px;
+  border-radius: 5px;
+
+  width: 60%;
+}
+.line {
+  background-color: rgba(31, 33, 39, 0.1);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
