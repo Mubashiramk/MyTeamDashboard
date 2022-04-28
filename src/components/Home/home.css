@@ -13,3 +13,6 @@
   padding-right: 35px;
   overflow: scroll;
 }
+img {
+  object-fit: cover;
+}

@@ -7,9 +7,10 @@
   border-radius: 5px;
   width: 30%;
   box-shadow: 5px 5px 18px #e4e3e7;
-  transition-delay: 0.2s;
+  /* transition-delay: all ease 0.2s; */
 }
 .cardfirm:hover {
+  transition-delay: all ease 0.4s;
   transform: scale(1.04);
   box-shadow: 0px 18px 23px rgba(34, 51, 158, 0.096);
 }
