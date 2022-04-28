@@ -7,6 +7,10 @@
   text-align: left;
   padding-top: 27px;
   padding-bottom: 27px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(250, 251, 253, 1);
+  z-index: 1;
 }
 .teammembers {
   width: 100%;
